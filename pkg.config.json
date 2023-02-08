@@ -1,5 +1,11 @@
 {
     "assets": [
-        "build\\assets\\**\\*"
+        "dist\\assets\\**\\*",
+        "dist\\lang-data\\*",
+        "dist\\lib\\*.node",
+        "dist\\worker-script\\node\\*.wasm"
+    ],
+    "scripts": [
+        "dist\\worker-script\\node\\*.js"
     ]
 }

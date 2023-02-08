@@ -1,10 +1,8 @@
 <p align="center">
-  <a href="https://qber-soft.github.io/Ave-React-Docs/">
-    <img width="200" src="https://qber-soft.github.io/Ave-React-Docs/img/Ave.svg">
-  </a>
+    <img width="200" src="./assets/ocr.png">
 </p>
 
-<h1 align="center">Avernakis React Template</h1>
+<!-- <h1 align="center">OCR</h1> -->
 
 <div align="center">
 
@@ -12,23 +10,43 @@
  
 # Introduction
 
-This is the template project of Ave React.
+This is powered by [Avernakis React](https://qber-soft.github.io/Ave-React-Docs/) & [Tesseract.js](https://github.com/naptha/tesseract.js). 😀
 
-Docs: [https://qber-soft.github.io/Ave-React-Docs/](https://qber-soft.github.io/Ave-Nodejs-Docs/)
+It supports Chinese and English out of box.
 
-## Dev
+# Install
+
+Download it from [Github Release](https://github.com/rerender2021/ocr/releases).
+
+# Features
+
+- drag and drop to open
+
+![ocr-cn](./docs/image/ocr-cn.gif)
+
+![ocr-en](./docs/image/ocr-en.gif)
+
+- `Ctrl + V`: paste image from clipboard or file
+
+![ocr-clipboard](./docs/image/ocr-clipboard.gif)
+
+![ocr-file](./docs/image/ocr-file.gif)
+
+- `Ctrl + C`: copy recognized text to clipboard
+
+# Dev
 
 ```bash
 > npm install
 > npm run dev
 ```
 
-## Package
+# Package
 
 ```bash
 > npm run release
 ```
 
-## License
+# License
 
 [MIT](./LICENSE)
