@@ -6,6 +6,8 @@
 
 <div align="center">
 
+[![build](https://github.com/rerender2021/ocr/actions/workflows/build.yml/badge.svg?branch=main&event=push)](https://github.com/rerender2021/ocr/actions/workflows/build.yml) [![pack](https://github.com/rerender2021/ocr/actions/workflows/pack.yml/badge.svg?branch=main&event=push)](https://github.com/rerender2021/ocr/actions/workflows/pack.yml)
+
  </div>
  
 # Introduction
